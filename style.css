@@ -198,11 +198,11 @@ nav a:hover {
 }
 
 .chip {
-    padding: 9px 16px;
+    padding: 6px 12px;
     border-radius: 999px;
     background: #fff;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .chip:nth-child(1) {
@@ -243,7 +243,7 @@ h1 em {
 
 .cta {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 12px;
 }
 
@@ -797,6 +797,7 @@ button.btn {
     gap: 10px;
 }
 
+.cta .btn,
 .trow .btn {
     padding: 14px 20px;
     font-size: 13px;
@@ -1211,11 +1212,6 @@ footer .wrap > small {
         font-size: clamp(20px, 6vw, 48px);
     }
 
-    .cta .btn {
-        padding: 13px 14px;
-        font-size: 10px;
-    }
-
     .hero .wrap,
     .teacher,
     .mat,
@@ -1350,18 +1346,13 @@ footer .wrap > small {
     }
 
     .chip {
-        font-size: 12px;
-        padding: 8px 13px;
+        font-size: 10px;
+        padding: 5px 10px;
     }
 
     .cta {
         flex-wrap: wrap;
         gap: 8px;
-    }
-
-    .cta .btn {
-        font-size: clamp(8px, 2.7vw, 11px);
-        padding: 12px clamp(10px, 3.4vw, 16px);
     }
 
     .facts {
@@ -1450,6 +1441,7 @@ footer .wrap > small {
         margin-bottom: 14px;
     }
 
+    .cta .btn,
     .trow .btn {
         font-size: 11px;
         padding: 12px 14px;
@@ -1515,12 +1507,12 @@ footer .wrap > small {
     }
 
     .chip {
-        font-size: clamp(9px, 2.7vw, 11px);
-        padding: 6px clamp(10px, 3vw, 13px);
+        font-size: clamp(8px, 2.4vw, 10px);
+        padding: 4px clamp(8px, 2.5vw, 10px);
     }
 
     .cta {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 8px;
     }
 
